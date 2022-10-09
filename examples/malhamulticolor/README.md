@@ -7,14 +7,14 @@ O intuito foi utilizar as funcionalides disponibilizadas pela ImGui. Nesse proje
 
 ## Execução
 Na pasta /abcg, executar o comando abaixo
-'''
+``` 
 ./build.sh
-'''
+```
 
 Após o projeto ser buildado, execute o comando para rodar o executável
-'''
+```
 ./build/bin/malhamulticolor/malhamulticolor
-'''
+```
 
 ### Observação
 Não foi possível executar o projeto pelo navegador. O navegador está escondendo os botões de troca de delay, o de apagar e os 3 sliders de cores.
