@@ -16,8 +16,8 @@ Após o projeto ser buildado, execute o comando para rodar o executável
 ./build/bin/malhamulticolor/malhamulticolor
 ```
 
-### Observação
-Não foi possível executar o projeto pelo navegador. O navegador está escondendo os botões de troca de delay, o de apagar e os 3 sliders de cores.
+### Link do site
+https://hadeoliveira.github.io/Projeto1ABCG/
 
 ### Referência
 - https://pthom.github.io/imgui_manual_online/manual/imgui_manual.html
