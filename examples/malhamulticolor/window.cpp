@@ -41,7 +41,7 @@ void Window::onPaint() {
     return;
   m_timer.restart();
 
-  setup();
+  setupModel();
 
   abcg::glViewport(0, 0, m_viewportSize.x - 5, m_viewportSize.y - 5);
 
