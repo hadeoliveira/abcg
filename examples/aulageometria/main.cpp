@@ -6,10 +6,11 @@ int main(int argc, char **argv) {
 
     Window window;
     window.setOpenGLSettings({.samples = 2, .doubleBuffering = false});
-    window.setWindowSettings({.width = 800,
-                              .height = 800,
-                              .showFullscreenButton = false,
-                              .title = "Geometry Class"});
+    window.setWindowSettings({
+        .width = 600,
+        .height = 600,
+        .title = "Aula de Geometria",
+    });
 
     app.run(window);
   } catch (std::exception const &exception) {
