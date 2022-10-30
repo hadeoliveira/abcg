@@ -4,4 +4,5 @@
 #add_subdirectory(tictactoe)
 #add_subdirectory(malhamulticolor)
 #add_subdirectory(demonsinvasion)
-add_subdirectory(aulageometria)
+#add_subdirectory(aulageometria)
+add_subdirectory(malhaemcruz)
