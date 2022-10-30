@@ -16,6 +16,15 @@ Após o projeto ser buildado, execute o comando para rodar o executável
 ./build/bin/malhaemcruz/malhaemcruz
 ```
 
+## Observação
+![image](https://user-images.githubusercontent.com/35350662/198903207-37951904-91af-42c2-8c1e-9fb336f9ff97.png)
+
+A ideia do projeto era fazer uma malha em cruz, tanto que o projeto executado localmente, as movimentações foram uma malha. No entanto, executando através do navegador, ocorre apenas a movimentação da cruz, fazendo com que o histórico do percurso não seja gravado na tela
+Um outro ponto é que, dependendo do zoom que navegador está, os widgets podem sumir da tela. No navegador, para que os widgets sejam apresentados, deixei um zoom de 80%. Esse foi um ponto que não soube corrigir e explicar para o projeto
+
+![image](https://user-images.githubusercontent.com/35350662/198903324-7135532b-2235-4f92-9a76-5125f34a1a2c.png)
+
+
 ## Histórico
 Inicialmente, planejei para fazer um projeto denominado "Aula de Geometria", no qual o usuário selecionasse uma figura geométrica em uma List Box e a mesma figura era desenhada na tela. No entanto, encontrei a mesma dificuldade na primeira tentativa realizada para o projeto 1. Não consegui alterar o estado da figura geométrica e desenhar de acordo com que ela era selecionada. 
 Visto essas dificuldades, optei por seguir uma dica discutida em aula, que era fazer um desenho diferente do que foi abordado em aula. Optei por fazer uma cruz utilizando a primitiva GL_LINE_STRIP e botões da biblioteca Dear ImGui para configurar a direção que a malha é gerada, que foi ao contrário do que foi explorado no projeto 1, no qual a malha era gerada aleatoriamente. 
