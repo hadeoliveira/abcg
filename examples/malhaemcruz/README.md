@@ -88,6 +88,9 @@ Um ponto que vale ser ressaltado do que foi feito diferente da aula é que os 13
 ```
 Esses serão os valores atribuídos ao VBOPositions e VBOColors.
 
+## Notas finais
+Por mais que não tenha saído com a ideia inicial de formar uma nova malha, os objetivos iniciais eram de conseguir deslocar uma figura específica e diferente das apresentadas na aula através de input do usuário, que era uma cruz; utilizar uma primitiva diferente da GL_TRIANGLES, que no caso foi utilizado a GL_LINE_STRIP; e, o principal, que é aprender a trabalhar melhor com os VBOs, VAOs e as primitivas do OpenGL.
+
 ### Link do site
 https://hadeoliveira.github.io/Projeto2ABCG/
 
