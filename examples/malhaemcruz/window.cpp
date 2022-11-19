@@ -58,7 +58,7 @@ void Window::onPaint() {
   // Definição da translação no m_program
   auto const translationLocation{
       abcg::glGetUniformLocation(m_program, "translation")};
-  abcg::__glewUniform1f(translationLocation, translation);
+  abcg::glUniform1f(translationLocation, translation);
 
   // Definição de escala no m_program
   auto const scaleLocation{abcg::glGetUniformLocation(m_program, "scale")};
