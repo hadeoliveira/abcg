@@ -204,7 +204,7 @@ void Window::onPaintUI() {
 
   // Create a window for the other widgets
   {
-    auto const widgetSize{ImVec2(172, 62)};
+    auto const widgetSize{ImVec2(200, 100)};
     ImGui::SetNextWindowPos(ImVec2(m_viewportSize.x - widgetSize.x - 5, 5));
     ImGui::SetNextWindowSize(widgetSize);
     ImGui::Begin("Widget window", nullptr, ImGuiWindowFlags_NoDecoration);
